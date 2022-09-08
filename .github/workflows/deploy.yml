@@ -11,7 +11,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-      - run: npm start
+      - run: docker build . --file Dockerfile --tag ${{ secrets.DOCKERHUB_USERNAME }}/ci_docker:latest
 
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v1
