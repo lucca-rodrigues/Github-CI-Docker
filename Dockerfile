@@ -6,6 +6,6 @@ COPY . .
 
 RUN npm i 
 
-RUN npm start
+RUN npm start:prod
 
 EXPOSE 3000
