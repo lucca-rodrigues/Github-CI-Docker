@@ -10,3 +10,9 @@
 ## Syncronizar imagem local:
 
 - Executar `docker pull luccarodrigues/ci_docker` e em seguida executar como na etapa anterior.
+
+## DOC
+
+- Ao executar a API, será exibido um console do app rodando dentro do docker
+  <img src="./.github/doc/app.png" alt="Image showing the message app started on port 3333">
+  <img src="./.github/doc/evidence.png" alt="Image showing Hello World">
